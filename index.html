@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư Mời Cưới</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700&family=Pacifico&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Thư Mời Cưới</h1>
+        </div>
+        <div class="parents">
+            <div>Ông Nguyễn Trung Trực &amp; Bà Phạm Thị Hoa</div>
+            <div>Ông Nguyễn Văn A &amp; Bà Trần Thị B</div>
+        </div>
+        <div class="announcement">Trân trọng báo tin</div>
+        <div class="couple-names">Hải Chi &amp; Mạnh Hoàng</div>
+        <div class="wedding-date">Ngày cưới: 18/2/2024</div>
+        <div class="countdown" id="countdown">
+            <span id="days"></span> ngày
+            <span id="hours"></span> giờ
+            <span id="minutes"></span> phút
+            <span id="seconds"></span> giây
+        </div>
+        <div class="slider" id="slider">
+            <div class="slides">
+                <img alt="Cô dâu và chú rể đứng cùng nhau trong một khu vườn đẹp" src="https://storage.googleapis.com/a1aa/image/GZ2xlnfjGbSGRiZgKtFeQay9uO6VOpmBI9YoVvt38Ibwk8wTA.jpg"/>
+                <img alt="Cô dâu và chú rể nắm tay và cười với nhau" src="https://storage.googleapis.com/a1aa/image/ewAlK2MnKv2Tf0e3VfKTg1dZIWIbpxOXHFPQiL4TfvnylkHeE.jpg"/>
+                <img alt="Cô dâu và chú rể đi xuống lối đi với khách mời cổ vũ" src="https://storage.googleapis.com/a1aa/image/pdROErlVTeX6CqZfuoxMejNwOpPdDvzd1L0Hcg1uZpTaJ5hnA.jpg"/>
+            </div>
+            <div class="slider-controls">
+                <button id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+                <button id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        <div class="map">
+            <h2>Địa điểm</h2>
+            <iframe allowfullscreen="" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.002264643073!2d105.7828273154021!3d21.01270799360264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab3a1b1b1b1b%3A0x1b1b1b1b1b1b1b1b!2sTrung%20T%C3%A2m%20H%E1%BB%99i%20Ngh%E1%BB%8B%20Qu%E1%BB%91c%20Gia!5e0!3m2!1svi!2s!4v1633072871234!5m2!1svi!2s"></iframe>
+        </div>
+        <div class="form-section">
+            <h2>Thông tin phản hồi</h2>
+            <p>Để thuận tiện cho việc sắp xếp chỗ ngồi, vui lòng phản hồi giúp vợ chồng mình nhé!</p>
+            <form id="rsvpForm">
+                <div class="form-group">
+                    <label for="guestName">Tên khách mời</label>
+                    <input id="guestName" name="guestName" required="" type="text"/>
+                </div>
+                <div class="form-group">
+                    <label for="guestSide">Khách nhà</label>
+                    <select id="guestSide" name="guestSide" required="">
+                        <option value="bride">Nhà gái</option>
+                        <option value="groom">Nhà trai</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="numAttendees">Số người tham dự</label>
+                    <input id="numAttendees" name="numAttendees" required="" type="number"/>
+                </div>
+                <div class="form-group">
+                    <label for="transportation">Phương tiện đi lại</label>
+                    <select id="transportation" name="transportation" required="">
+                        <option value="car">Ô tô</option>
+                        <option value="bus">Xe buýt</option>
+                        <option value="train">Tàu hỏa</option>
+                        <option value="plane">Máy bay</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Gửi"/>
+                </div>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h2>Thông tin liên hệ</h2>
+            <p><i class="fas fa-phone"></i> Điện thoại: +122398507</p>
+            <p><i class="fas fa-envelope"></i> Email: sadasdasdsadasd@gmail.com</p>
+        </div>
+    </div>
+    <script src="func.js"></script> 
+</body>
+</html>

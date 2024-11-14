@@ -1,0 +1,168 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    padding: 30px 0;
+}
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Great Vibes', cursive;
+}
+.parents {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    margin: 20px 0;
+    font-family: 'Playfair Display', serif;
+}
+.parents div {
+    flex: 1;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .parents {
+        flex-direction: column;
+        align-items: center;
+    }
+    .parents div {
+        margin-bottom: 10px;
+    }
+}
+.announcement {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-family: 'Great Vibes', cursive;
+}
+.couple-names {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0;
+    font-family: 'Pacifico', cursive;
+}
+.wedding-date {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px 0;
+    font-family: 'Great Vibes', cursive;
+}
+.countdown {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px 0;
+    font-family: 'Great Vibes', cursive;
+}
+.countdown span {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.form-section h2 {
+    margin-top: 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}
+.form-section p {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.form-group {
+
+margin-bottom: 15px;
+    text-align: left;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input[type="submit"] {
+    background-color: #87CEEB;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #76b4d4;
+}
+.map {
+    text-align: center;
+    margin: 20px 0;
+}
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+@media (min-width: 768px) {
+    .map iframe {
+        height: 400px;
+    }
+}
+.slider {
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slides img {
+    width: 100%;
+    border-radius: 8px;
+}
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.slider-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.slider-controls button {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.slider-controls button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
